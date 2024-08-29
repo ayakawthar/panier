@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: brown;
+}
+h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
